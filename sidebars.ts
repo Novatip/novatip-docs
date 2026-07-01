@@ -13,6 +13,11 @@ const sidebars: SidebarsConfig = {
       label: "System Flow",
     },
     {
+      type:  "doc",
+      id:    "roadmap",
+      label: "Roadmap",
+    },
+    {
       type:      "category",
       label:     "Smart Contracts",
       collapsed: false,
@@ -39,6 +44,11 @@ const sidebars: SidebarsConfig = {
         "guides/deployment",
         "guides/ci-cd",
       ],
+    },
+    {
+      type:  "doc",
+      id:    "contributing",
+      label: "Contributing",
     },
   ],
 };
