@@ -9,10 +9,13 @@
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
 
-.heroEmoji {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+.heroLogo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 1.5rem;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heroTitle {

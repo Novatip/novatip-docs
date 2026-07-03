@@ -9,7 +9,7 @@ function HeroBanner() {
   return (
     <div className={styles.heroBanner}>
       <div className="container">
-        <div className={styles.heroEmoji}>💸</div>
+        <img src="img/logo.svg" alt="Novatip logo" className={styles.heroLogo} />
         <Heading as="h1" className={styles.heroTitle}>
           Novatip Documentation
         </Heading>
