@@ -13,8 +13,12 @@ const config: Config = {
   projectName:      "novatip-docs",
   trailingSlash:    false,
 
-  onBrokenLinks:         "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "throw",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
 
   i18n: {
     defaultLocale: "en",
@@ -111,7 +115,6 @@ const config: Config = {
       additionalLanguages: ["rust", "bash", "json", "toml", "yaml", "typescript"],
     },
 
-    algolia: undefined, // add Algolia DocSearch later for free search
   } satisfies Preset.ThemeConfig,
 };
 
